@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.test.TestApplicationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-01-26T16:43:22" hostname="DESKTOP-BUSTCTD" time="0.674">
+  <properties/>
+  <testcase name="testListarTareasMes()" classname="com.project.test.TestApplicationTests" time="0.54"/>
+  <testcase name="testCrear()" classname="com.project.test.TestApplicationTests" time="0.064"/>
+  <testcase name="testSetTareaPagada()" classname="com.project.test.TestApplicationTests" time="0.022"/>
+  <testcase name="testPromedio()" classname="com.project.test.TestApplicationTests" time="0.034"/>
+  <testcase name="testListarTareasMesPorEstado()" classname="com.project.test.TestApplicationTests" time="0.011"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v3.3.0-SNAPSHOT)
+
+2024-01-26T11:43:19.227-05:00  INFO 21232 --- [    Test worker] com.project.test.TestApplicationTests    : Starting TestApplicationTests using Java 17.0.10 with PID 21232 (started by Eddy PoTh3r in C:\Users\Eddy PoTh3r\Desktop\Performance\Microservicio\Test\Test)
+2024-01-26T11:43:19.228-05:00  INFO 21232 --- [    Test worker] com.project.test.TestApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-01-26T11:43:19.666-05:00  INFO 21232 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-26T11:43:19.704-05:00  INFO 21232 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-01-26T11:43:19.972-05:00  INFO 21232 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-26T11:43:20.106-05:00  INFO 21232 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cf762e0d-2b89-4f9d-a197-61ceb6b01e7d user=SA
+2024-01-26T11:43:20.107-05:00  INFO 21232 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-26T11:43:20.139-05:00  INFO 21232 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-26T11:43:20.183-05:00  INFO 21232 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-26T11:43:20.220-05:00  INFO 21232 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-26T11:43:20.386-05:00  INFO 21232 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-26T11:43:20.959-05:00  INFO 21232 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-26T11:43:20.988-05:00  INFO 21232 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-26T11:43:21.245-05:00  INFO 21232 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-01-26T11:43:21.821-05:00  WARN 21232 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-26T11:43:22.306-05:00  INFO 21232 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-01-26T11:43:22.306-05:00  INFO 21232 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-01-26T11:43:22.309-05:00  INFO 21232 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-01-26T11:43:22.344-05:00  INFO 21232 --- [    Test worker] com.project.test.TestApplicationTests    : Started TestApplicationTests in 3.278 seconds (process running for 4.059)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
